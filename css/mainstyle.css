@@ -212,7 +212,7 @@ p{
 	}
 	
 	.containerLeft .navLeft{
-		width: 100%;
+		width: 200vw;
 		background-color: rgb(147, 146, 142);
 		padding-left: 2em;
 		padding-top: 0.5em;
@@ -265,8 +265,8 @@ p{
 	}
 	
 	.containerRight{
-		width: 800px;
-		height: 100%;
+		width: 200vw;
+		height: 100vh;
 		margin-right: -10px;
 		background-color: rgb(121, 120, 118);
 		margin-top: 90px;
