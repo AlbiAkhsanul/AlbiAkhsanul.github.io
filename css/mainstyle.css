@@ -71,18 +71,18 @@ p{
 	bottom: 0;
 	background-color: rgb(54, 52, 52);
 }
-
 .container{
 	display: flex;
-	height: fit-content;
+	height: 100vh;
+	background-color: rgb(220, 220, 220);
 }
 
 .containerLeft{
-	width: 80vw;
+	width: 80%;
 }
 
 .containerLeft .navLeft{
-	width: 100%;
+	width: 100vw;
 	background-color: rgb(147, 146, 142);
 	padding-left: 2em;
 	padding-top: 0.5em;
@@ -136,7 +136,7 @@ p{
 
 .containerRight{
 	width: 300px;
-	height: 100% contain ;
+	height: 100%;
 	background-color: rgb(121, 120, 118);
 	border-left: 0.5em solid rgb(71, 71, 69);
 }
@@ -171,15 +171,9 @@ p{
 		}
 
 @media screen and (max-width: 800px){
-	svg{
-		position: fixed;
-		bottom: 0;
-		z-index: 1;
-	}
 	.container{
 		display:block;
 		width: 800px;
-		height: 100vh;
 	}
 	
 	h1{
@@ -265,8 +259,8 @@ p{
 	}
 	
 	.containerRight{
-		width: 200vw;
-		height: 100vh;
+		width: 100%;
+		height: 100%;
 		margin-right: -10px;
 		background-color: rgb(121, 120, 118);
 		margin-top: 90px;
