@@ -68,7 +68,7 @@ p{
 
 svg{
     position: absolute;
-    bottom: 1em;
+    bottom: 10vh;
     z-index: -1;
 }
 
@@ -178,7 +178,7 @@ svg{
 }
 
 .projects{
-    width: 100vw;
+    width: 100%;
     background-color: rgb(220, 220, 220);
 }
 
@@ -213,68 +213,20 @@ svg{
 }
 
 @media screen and (max-width: 800px){
-    h1{
-        font-size: 2em;
-        text-shadow: 0.03em 0.04em rgb(103, 97, 97);
-        color: rgb(53, 53, 53);
-    }
     
     h2{
-        font-size: 1.3em;
-        font-weight: bold;
-        text-shadow: 0.03em 0.03em rgb(103, 97, 97);
-        color: rgb(68, 32, 32);
+        text-shadow: none;
     }
     
-    p{
-        font-size: 1.2em;
-        color: rgb(80, 43, 43);
-    }
-    
-    svg{
-        position: absolute;
-        bottom: 0;
-        z-index: -1;
-    }
     .container{
 		width: 800px;
 	}
     .container .navBar{
-        position: fixed;
-        top: 0;
         width: 800px;
-        background-color: rgb(147, 146, 142);
-        padding-left: 2em;
-        padding-top: 0.5em;
-        border-bottom: 0.5em dotted rgb(191, 176, 158);
     }
-        .container .navBar .navItem{
-            display: flex;
-            font-size: 1.5em;
-        }
-        .container .navBar .navItem a{
-            text-decoration: none;
-        }
-        #list{
-            margin-top: 0.5rem;
-            margin-right: 3rem;
-            height: fit-content;
-            padding: 0.2em;
-            width: 6em;
-            text-align: center;
-            border-radius: 10%;
-            color: rgb(201, 197, 197);
-            background-color: rgb(74, 74, 74);
-            box-shadow: 0.1em 0.1em rgb(120, 105, 105);
-        }
-            #list:hover{
-                background-color: rgb(107, 98, 98);
-                box-shadow: 0.1em 0.1em rgb(52, 51, 51);
-            }
-            #list:active{
-                background-color: rgb(74, 74, 74);
-                box-shadow: 0.1em 0.1em rgb(120, 105, 105);
-            }
+    .container .navBar .navItem{
+	    	font-size: 1.5em;
+	    }
         #icon{
             height: 2.5rem;
             margin-right: 4rem;
@@ -282,101 +234,23 @@ svg{
         }
     
     .container .main{
-        padding: 12vh 6vh 6vh 6vh;
-        margin: auto;
         width: 80%;
-        display: flex;
-        background-color: rgb(220, 220, 220);
-        box-shadow: 1em 1em rgb(131, 125, 125);
     }
-        .mainLeft{
-            width: 80%;
-            padding: 1em 2em 2em 2em;
-        }
-        .mainLeft h1{
-            margin-bottom: 3vh;
-        }
-        .mainLeft h2{
-            margin-bottom: 2vh;
-        }
         .mainLeft p{
             width: 130%;
-            margin-bottom: 1.5vh;
-            text-indent: 3vh;
-            text-align: justify;
         }
-    
-        .mainRight{
-            background-color: rgb(114, 104, 84);
-            padding: 2vh;
-            height: fit-content;
-            margin-top: -5vh;
-            padding-top: 10vh;
-            border-right: 1em solid rgb(68, 32, 32);
-            box-shadow: 0.5em 0.5em rgb(91, 64, 64);
-        }
-            .mainRight:hover{
-                padding-top: 15vh;
-            }
-    
-        .mainRight .socialMediaItems{
-            display:flex;
-            justify-content: center;
-        }
-            #items{
-                width: 3em;
-            }
-                #items:hover{
-                    border-radius: 30%;
-                    background-color: rgb(79, 73, 63);
-                }
-                .instagram{
-                    margin-right: 1em;
-                }
-                .github{
-                    margin-left: 1em;
-                }
-    
-    #mid{
-        width: 100%;
-        height: 2em;
-        background-color: rgb(77, 71, 71);
-        border-top: 0.6em double rgb(162, 155, 155);
-    }
     
     .projects{
         width: 800px;
         background-color: rgb(220, 220, 220);
     }
-    
-    .projects .projectHeader{
-        padding-top: 3em;
-        text-align: center;
-        margin-bottom: 2em;
-    }
-    
+
     .projects .projectsItem{
-        /* display: flex; */
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        padding-bottom: 10em;
     }
         #projectsItem{
-            width: 15em;
-            height: 25em;
-            background-color: whitesmoke;
-            margin: 2em;
-            padding: 1em;
+            width: 12em;
+            height: 20em;
         }
-    
-    #bot{
-        width: 100%;
-        height: 1.5em;
-        position: fixed;
-        bottom: 0;
-        background-color: rgb(54, 52, 52);
-        border-top: 0.6em dotted rgb(225, 220, 220);
-    }
-    
 }

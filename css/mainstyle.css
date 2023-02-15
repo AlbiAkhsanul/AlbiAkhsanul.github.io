@@ -162,7 +162,6 @@ p{
 	margin-top: 2.4em;
 	margin-left: -6.4em;
 }
-
 	.socialMediaItems{
 		margin-top: 2em;
 	}
@@ -199,25 +198,13 @@ p{
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
 	}
-	
-	#bot{
-		width: 100%;
-		height: 1em;
-		position: fixed;
-		bottom: 0;
-		background-color: rgb(54, 52, 52);
-	}
 		
 	.containerLeft{
-		width: 100%;
+		width: 800px;
 	}
 	
 	.containerLeft .navLeft{
 		width: 800px;
-		background-color: rgb(147, 146, 142);
-		padding-left: 2em;
-		padding-top: 0.5em;
-		border-bottom: 0.5em dotted rgb(191, 176, 158);
 	}
 		.containerLeft .navLeft .navLeftItem{
 			display: flex;
@@ -226,30 +213,8 @@ p{
 		.containerLeft .navLeft .navLeftItem a{
 			text-decoration: none;
 		}
-		#list{
-			margin-top: 0.5rem;
-			margin-right: 3rem;
-			height: fit-content;
-			padding: 0.2em;
-			width: 6em;
-			text-align: center;
-			border-radius: 10%;
-			color: rgb(201, 197, 197);
-			background-color: rgb(74, 74, 74);
-			box-shadow: 0.1em 0.1em rgb(120, 105, 105);
-		}
-			#list:hover{
-				background-color: rgb(107, 98, 98);
-				box-shadow: 0.1em 0.1em rgb(52, 51, 51);
-			}
-			#list:active{
-				background-color: rgb(74, 74, 74);
-				box-shadow: 0.1em 0.1em rgb(120, 105, 105);
-			}
 		#icon{
 			height: 2.5rem;
-			margin-right: 4rem;
-			padding-bottom: 0.5em;
 		}
 	
 	.containerLeft .mainLeft{
@@ -259,10 +224,7 @@ p{
 	}
 	
 	.containerLeft .mainLeft .photo img{
-		margin: 1.5rem;
 		width: 13em;
-		border-radius: 50%;
-		box-shadow: 0.3em 0.3em rgb(129, 127, 127);
 	}
 	
 	.containerRight{
@@ -270,7 +232,6 @@ p{
 		width: 800px;
 		height: 100%;
 		margin-right: -10px;
-		background-color: rgb(121, 120, 118);
 		margin-top: 90px;
 		padding-top: 70px;
 		padding-bottom: 10px;
@@ -283,31 +244,15 @@ p{
 		margin: auto;
 		margin-top: 30px;
 		text-align: center;
-		font-size: 1.8rem;
-		color: rgb(231, 218, 202);
-		text-shadow: 0.04em 0.04em rgb(146, 138, 129);
 	}
 	
 	.containerRight .mainRight .socialMedia h2{
 		rotate: 0deg;
-		margin-top: 2.4em;
 		margin-left: 0em;
 	}
-	
 		.socialMediaItems{
 			display: inline-flex;
-			margin-top: 2em;
 		}
-		#logo{
-			margin-bottom: 1.5em;
-		}
-		#items{
-			width: 3em;
-		}
-			#items:hover{
-				border-radius: 30%;
-				background-color: rgb(105, 105, 102);
-			}
 			.instagram{
 				margin-right: 2em;
 			}
