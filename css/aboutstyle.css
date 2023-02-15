@@ -130,9 +130,10 @@ svg{
         margin-bottom: 3vh;
     }
     .mainLeft h2{
-        margin-bottom: 2vh;
+        margin-bottom: 4.5vh;
     }
     .mainLeft p{
+        width: 120%;
         margin-bottom: 1.5vh;
         text-indent: 3vh;
         text-align: justify;
@@ -231,14 +232,16 @@ svg{
     
     svg{
         position: absolute;
-        bottom: 1em;
+        bottom: 0;
         z-index: -1;
     }
-    
+    .container{
+		width: 800px;
+	}
     .container .navBar{
         position: fixed;
         top: 0;
-        width: 100vw;
+        width: 800px;
         background-color: rgb(147, 146, 142);
         padding-left: 2em;
         padding-top: 0.5em;
@@ -246,7 +249,7 @@ svg{
     }
         .container .navBar .navItem{
             display: flex;
-            font-size: 1.7em;
+            font-size: 1.5em;
         }
         .container .navBar .navItem a{
             text-decoration: none;
@@ -272,7 +275,7 @@ svg{
                 box-shadow: 0.1em 0.1em rgb(120, 105, 105);
             }
         #icon{
-            height: 3rem;
+            height: 2.5rem;
             margin-right: 4rem;
             padding-bottom: 0.5em;
         }
@@ -280,7 +283,7 @@ svg{
     .container .main{
         padding: 12vh 6vh 6vh 6vh;
         margin: auto;
-        width: 60%;
+        width: 80%;
         display: flex;
         background-color: rgb(220, 220, 220);
         box-shadow: 1em 1em rgb(131, 125, 125);
@@ -296,6 +299,7 @@ svg{
             margin-bottom: 2vh;
         }
         .mainLeft p{
+            width: 130%;
             margin-bottom: 1.5vh;
             text-indent: 3vh;
             text-align: justify;
@@ -340,7 +344,7 @@ svg{
     }
     
     .projects{
-        width: 100vw;
+        width: 800px;
         background-color: rgb(220, 220, 220);
     }
     
@@ -353,7 +357,8 @@ svg{
     .projects .projectsItem{
         /* display: flex; */
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         padding-bottom: 10em;
     }
         #projectsItem{
