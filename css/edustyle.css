@@ -123,26 +123,26 @@ svg{
 		background-color: rgb(220, 220, 220);
 		box-shadow: 1em 1em rgb(131, 125, 125);
 		text-align: right;
-		padding-top: 10%;
+		padding-top: 7%;
 		padding-bottom: 5%;
 	}
 		.itemLeft{
 			height: 100%;
 		}
 			#jhsLeft{
-				height: 40%;
+				height: 35%;
 				border-right: 0.8em solid rgb(119, 100, 91);
 				padding: 3% 5% 0 3%;
 			}
 			#hsLeft{
-				height: 40%;
+				height: 35%;
 				padding: 3% 5% 0 3%;
 				border-right: 0.8em solid rgb(149, 123, 109);
 			}
 			#clLeft{
-				height: 20%;
+				height: 35%;
 				padding: 3% 5% 0 3%;
-				border-right: 0.8em solid rgb(161, 129, 109);
+				border-right: 0.8em solid rgb(185, 141, 114);
 			}
 
 	.mainRight{
@@ -150,24 +150,31 @@ svg{
 		height: 100%;
 		background-color: rgb(220, 220, 220);
 		box-shadow: 1em 1em rgb(131, 125, 125);
-		padding-top: 10%;
+		padding-top: 7%;
 		padding-bottom: 5%;
 	}
 		.itemRight{
 			height: 100%;
 		}
 			#jhsRight{
-				height: 40%;
+				height: 35%;
 				padding: 3% 0 5% 3%;
 			}
 			#hsRight{
-				height: 40%;
+				height: 35%;
 				padding: 3% 0 5% 3%;
 			}
 			#clRight{
-				height: 20%;
+				height: 35%;
 				padding: 3% 0 5% 3%;
 			}
+	
+	#school{
+		width: 12em;
+		margin-top: 1em;
+		border: 0.3em solid rgb(116, 115, 115);
+		box-shadow: 0.2em 0.2em rgb(85, 83, 83);
+	}
 
 #bot{
 	width: 100%;
