@@ -147,6 +147,7 @@ svg{
         padding-top: 10vh;
         border-right: 1em solid rgb(68, 32, 32);
         box-shadow: 0.5em 0.5em rgb(91, 64, 64);
+        transition: 0.3s;
     }
         .mainRight:hover{
             padding-top: 15vh;
