@@ -110,6 +110,7 @@ svg{
 		}
 	#icon{
 		height: 3rem;
+        width: 3.5rem;
 		margin-right: 4rem;
 		padding-bottom: 0.5em;
 	}
@@ -230,8 +231,6 @@ svg{
 	    }
         #icon{
             height: 2.5rem;
-            margin-right: 4rem;
-            padding-bottom: 0.5em;
         }
     
     .container .main{

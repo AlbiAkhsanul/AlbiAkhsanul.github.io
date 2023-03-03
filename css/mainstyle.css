@@ -121,6 +121,7 @@ p{
 		}
 	#icon{
 		height: 3rem;
+		width: 3.5rem;
 		margin-right: 4rem;
 		padding-bottom: 0.5em;
 	}
@@ -146,7 +147,12 @@ p{
 	height: 100%;
 	background-color: rgb(121, 120, 118);
 	border-left: 0.5em solid rgb(71, 71, 69);
+	margin-right: -5%;
+	transition: 0.5s;
 }
+	.containerRight:hover{
+		padding-right: 5%;
+	}
 
 .containerRight .mainRight .socialMedia{
 	display: flex;
@@ -238,6 +244,9 @@ p{
 		border-left: none;
 		border-top: 3em double rgb(71, 71, 69);
 	}
+		.containerRight:hover{
+			padding-right: 0;
+		}	
 	
 	.containerRight .mainRight .socialMedia{
 		display: block;
